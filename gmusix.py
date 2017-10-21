@@ -1,8 +1,11 @@
 from functools import wraps
 from flask import Flask, request, jsonify, render_template
 from gmusicapi import Mobileclient
+from flask_socketio import SocketIO, send
 
 app = Flask(__name__)
+socketio = SocketIO(app)
+
 api = Mobileclient()
 
 def auth_required(f):
@@ -21,6 +24,10 @@ def index():
 @app.route('/<path:path>', methods=['GET'])
 def any_root_path(path):
     return render_template('index.html')
+
+@socketio.on('message')
+def handle_message(message):
+    send(message)
 
 ##########
 
@@ -41,3 +48,6 @@ def songs():
 def stream(song_id):
     song = api.get_stream_url(song_id)
     return jsonify(song)
+
+if __name__ == '__main__':
+    socketio.run(app)

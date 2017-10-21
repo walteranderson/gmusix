@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7008baef1d9ceaf298e7a5b95660aea4939917143d99f2cf33d9703317e49988"
+            "sha256": "7691f415bd88458a7e077dd8c0a52ab15c545e6da9fd5697428f81be87fb17ef"
         },
         "requires": {},
         "sources": [
@@ -30,8 +30,17 @@
         "decorator": {
             "version": "==4.1.2"
         },
+        "enum-compat": {
+            "version": "==0.0.2"
+        },
+        "eventlet": {
+            "version": "==0.21.0"
+        },
         "flask": {
             "version": "==0.12.2"
+        },
+        "flask-socketio": {
+            "version": "==2.9.2"
         },
         "future": {
             "version": "==0.16.0"
@@ -41,6 +50,9 @@
         },
         "gpsoauth": {
             "version": "==0.4.1"
+        },
+        "greenlet": {
+            "version": "==0.4.12"
         },
         "httplib2": {
             "version": "==0.10.3"
@@ -89,6 +101,12 @@
         },
         "python-dateutil": {
             "version": "==2.6.1"
+        },
+        "python-engineio": {
+            "version": "==1.7.0"
+        },
+        "python-socketio": {
+            "version": "==1.8.1"
         },
         "requests": {
             "version": "==2.18.4"
