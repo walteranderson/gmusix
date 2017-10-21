@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "cb65967bdf3a7372749ce6144be4ee63f412aeeac624342fda3a2b58b1c43c15"
+            "sha256": "7008baef1d9ceaf298e7a5b95660aea4939917143d99f2cf33d9703317e49988"
         },
         "requires": {},
         "sources": [
@@ -11,6 +11,106 @@
             }
         ]
     },
-    "default": {},
+    "default": {
+        "appdirs": {
+            "version": "==1.4.3"
+        },
+        "beautifulsoup4": {
+            "version": "==4.6.0"
+        },
+        "certifi": {
+            "version": "==2017.7.27.1"
+        },
+        "chardet": {
+            "version": "==3.0.4"
+        },
+        "click": {
+            "version": "==6.7"
+        },
+        "decorator": {
+            "version": "==4.1.2"
+        },
+        "flask": {
+            "version": "==0.12.2"
+        },
+        "future": {
+            "version": "==0.16.0"
+        },
+        "gmusicapi": {
+            "version": "==10.1.2"
+        },
+        "gpsoauth": {
+            "version": "==0.4.1"
+        },
+        "httplib2": {
+            "version": "==0.10.3"
+        },
+        "idna": {
+            "version": "==2.6"
+        },
+        "itsdangerous": {
+            "version": "==0.24"
+        },
+        "jinja2": {
+            "version": "==2.9.6"
+        },
+        "markupsafe": {
+            "version": "==1.0"
+        },
+        "mechanicalsoup": {
+            "version": "==0.8.0"
+        },
+        "mock": {
+            "version": "==2.0.0"
+        },
+        "mutagen": {
+            "version": "==1.38"
+        },
+        "oauth2client": {
+            "version": "==4.1.2"
+        },
+        "pbr": {
+            "version": "==3.1.1"
+        },
+        "proboscis": {
+            "version": "==1.2.6.0"
+        },
+        "protobuf": {
+            "version": "==3.4.0"
+        },
+        "pyasn1": {
+            "version": "==0.3.7"
+        },
+        "pyasn1-modules": {
+            "version": "==0.1.5"
+        },
+        "pycryptodomex": {
+            "version": "==3.4.7"
+        },
+        "python-dateutil": {
+            "version": "==2.6.1"
+        },
+        "requests": {
+            "version": "==2.18.4"
+        },
+        "rsa": {
+            "version": "==3.4.2"
+        },
+        "setuptools": {
+            "version": "==36.6.0"
+        },
+        "six": {
+            "version": "==1.11.0"
+        },
+        "urllib3": {
+            "version": "==1.22"
+        },
+        "validictory": {
+            "version": "==1.1.1"
+        },
+        "werkzeug": {
+            "version": "==0.12.2"
+        }
+    },
     "develop": {}
 }
