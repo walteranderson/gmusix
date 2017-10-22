@@ -3,18 +3,18 @@
     <head></head>
     <body>
         <div id="root"></div>
-        <!-- <script src="/static/app.js"></script> -->
-        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
-        <script type="text/javascript" charset="utf-8">
-            var socket = io.connect('http://localhost:5000');
-            socket.on('connect', function() {
-                console.log('I have connected!');
-                socket.emit('message', 'hello world');
-            });
-
-            socket.on('message', function(msg) {
-                console.log(msg);
-            });
-        </script>
+        <script src="/static/app.js"></script>
+        <!-- <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script> -->
+        <!-- <script type="text/javascript" charset="utf&#45;8"> -->
+        <!--     var socket = io.connect('http://localhost:5000'); -->
+        <!--     socket.on('connect', function() { -->
+        <!--         console.log('I have connected!'); -->
+        <!--         socket.emit('message', 'hello world'); -->
+        <!--     }); -->
+        <!--  -->
+        <!--     socket.on('message', function(msg) { -->
+        <!--         console.log(msg); -->
+        <!--     }); -->
+        <!-- </script> -->
     </body>
 </html>
