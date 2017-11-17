@@ -1,7 +1,4 @@
-all: build server
+all: server
 
 server:
-	FLASK_APP=gmusix.py flask run
-
-build:
-	npm run build
+	FLASK_DEBUG=1 FLASK_APP=gmusix.py python gmusix.py

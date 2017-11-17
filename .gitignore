@@ -1,5 +1,2 @@
-node_modules/
 __pycache__/
-
-static/app.js
-
+*.py[cod]

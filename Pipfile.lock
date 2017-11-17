@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7691f415bd88458a7e077dd8c0a52ab15c545e6da9fd5697428f81be87fb17ef"
+            "sha256": "a3316d2f32cc1885961d45c1b7a1e3c77c9bfdff7f6c2e6247720b68d88c5689"
         },
         "requires": {},
         "sources": [
@@ -12,23 +12,8 @@
         ]
     },
     "default": {
-        "appdirs": {
-            "version": "==1.4.3"
-        },
-        "beautifulsoup4": {
-            "version": "==4.6.0"
-        },
-        "certifi": {
-            "version": "==2017.7.27.1"
-        },
-        "chardet": {
-            "version": "==3.0.4"
-        },
         "click": {
             "version": "==6.7"
-        },
-        "decorator": {
-            "version": "==4.1.2"
         },
         "enum-compat": {
             "version": "==0.0.2"
@@ -42,89 +27,29 @@
         "flask-socketio": {
             "version": "==2.9.2"
         },
-        "future": {
-            "version": "==0.16.0"
-        },
-        "gmusicapi": {
-            "version": "==10.1.2"
-        },
-        "gpsoauth": {
-            "version": "==0.4.1"
-        },
         "greenlet": {
             "version": "==0.4.12"
         },
-        "httplib2": {
-            "version": "==0.10.3"
-        },
-        "idna": {
-            "version": "==2.6"
+        "gunicorn": {
+            "version": "==19.7.1"
         },
         "itsdangerous": {
             "version": "==0.24"
         },
         "jinja2": {
-            "version": "==2.9.6"
+            "version": "==2.10"
         },
         "markupsafe": {
             "version": "==1.0"
-        },
-        "mechanicalsoup": {
-            "version": "==0.8.0"
-        },
-        "mock": {
-            "version": "==2.0.0"
-        },
-        "mutagen": {
-            "version": "==1.38"
-        },
-        "oauth2client": {
-            "version": "==4.1.2"
-        },
-        "pbr": {
-            "version": "==3.1.1"
-        },
-        "proboscis": {
-            "version": "==1.2.6.0"
-        },
-        "protobuf": {
-            "version": "==3.4.0"
-        },
-        "pyasn1": {
-            "version": "==0.3.7"
-        },
-        "pyasn1-modules": {
-            "version": "==0.1.5"
-        },
-        "pycryptodomex": {
-            "version": "==3.4.7"
-        },
-        "python-dateutil": {
-            "version": "==2.6.1"
         },
         "python-engineio": {
             "version": "==1.7.0"
         },
         "python-socketio": {
-            "version": "==1.8.1"
-        },
-        "requests": {
-            "version": "==2.18.4"
-        },
-        "rsa": {
-            "version": "==3.4.2"
-        },
-        "setuptools": {
-            "version": "==36.6.0"
+            "version": "==1.8.3"
         },
         "six": {
             "version": "==1.11.0"
-        },
-        "urllib3": {
-            "version": "==1.22"
-        },
-        "validictory": {
-            "version": "==1.1.1"
         },
         "werkzeug": {
             "version": "==0.12.2"

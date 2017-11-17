@@ -4,6 +4,6 @@ verify_ssl = true
 
 [packages]
 flask = "*"
-gmusicapi = "*"
 flask-socketio = "*"
 eventlet = "*"
+gunicorn = "*"
